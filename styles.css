@@ -67,6 +67,11 @@ section{
   align-items: baseline;
   gap: 0.75rem;
 }
+.brand-name{
+  margin: 0;
+  font-size: 1.75rem;   /* adjust to taste */
+  line-height: 1;
+}
 .credentials {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
