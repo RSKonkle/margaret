@@ -70,7 +70,7 @@ section{
 .brand-name{
   margin: 0;
   font-size: 1.75rem;   /* adjust to taste */
-  line-height: 1;
+  line-height: 1.2;
 }
 .credentials {
   margin: 0;
