@@ -83,7 +83,7 @@ section{
   margin: 0 0 1.5rem 0;
   font-size: clamp(2.75rem, 5vw, 4rem);
   font-family: "Playfair Display", serif;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -0.03em;
   line-height: 1.05;
 }
