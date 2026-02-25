@@ -81,8 +81,8 @@ section{
 }
 .hero-grid{
   display: grid;
-  grid-template-columns: 1.6fr 1fr;
-  gap: 2.5rem;
+  grid-template-columns: 1.4fr 1.1fr;
+  gap: 2.5;
   align-items: start;
 }
 .hero-welcome{
@@ -95,6 +95,7 @@ section{
 .hero-photo{
   width: 100%;
   height: auto;
+  object-fit: cover;
   display: block;
   border-radius: 16px;
 }
