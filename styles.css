@@ -79,6 +79,27 @@ section{
   color: var(--text-muted);
   letter-spacing: 0.04em;
 }
+.hero-grid{
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.hero-welcome{
+  margin: 0;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-size: 1.05rem;
+  max-width: 60ch;
+}
+
+.hero-photo{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
 
 /* MOBILE RESPONSIVENESS */
 
@@ -92,5 +113,10 @@ section{
     flex-direction: column;
     align-items: flex-start;
     gap: 0.25rem;
+  }
+}
+@media (max-width: 900px){
+  .hero-grid{
+    grid-template-columns: 1fr;
   }
 }
