@@ -85,15 +85,13 @@ section{
   gap: 2.5rem;
   align-items: start;
 }
-
 .hero-welcome{
-  margin-bottom: 1.25rem;
+  margin: 0 0 1.25rem 0;
   color: var(--text-secondary);
   line-height: 1.8;
   font-size: 1.05rem;
   max-width: 60ch;
 }
-
 .hero-photo{
   width: 100%;
   height: auto;
