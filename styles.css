@@ -87,7 +87,7 @@ section{
 }
 
 .hero-welcome{
-  margin: 0;
+  margin-bottom: 1.25rem;
   color: var(--text-secondary);
   line-height: 1.8;
   font-size: 1.05rem;
