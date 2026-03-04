@@ -198,9 +198,9 @@ section{
 }
 .school-name{
   margin: 0 0 1.5rem 0;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  color: var(--text-primary);
+  color: var(--accent);
 }
 .degree p{
   margin: 0.25rem 0 0 0;
