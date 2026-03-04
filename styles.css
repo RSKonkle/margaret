@@ -164,6 +164,20 @@ section{
   color: var(--accent-hover);
   text-decoration: underline;
 }
+.education{
+  margin-top: 3rem;
+}
+.school-name{
+  margin: 0 0 1.5rem 0;
+  color: var(--text-secondary);
+}
+.degree{
+  margin-bottom: 1.25rem;
+}
+.degree p{
+  margin: 0.25rem 0 0 0;
+  color: var(--text-secondary);
+}
 
 /* MOBILE RESPONSIVENESS */
 
