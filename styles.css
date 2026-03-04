@@ -180,7 +180,7 @@ section{
 .education-row{
   display: grid;
   grid-template-columns: 240px 1fr;
-  gap: .75rem;
+  gap: .25rem;
   align-items: start;
 }
 .degree{
@@ -211,6 +211,8 @@ section{
 }
 .school-name{
   margin: 0 0 1.5rem 0;
+  font-size: 0.9rem;
+  font-weight: 600;
   color: var(--text-secondary);
 }
 .degree p{
