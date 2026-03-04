@@ -208,6 +208,7 @@ section{
 }
 .about{
   background: var(--bg-elevated);
+  padding: 0;
 }
 .about-card{
   line-height: 1.8;
