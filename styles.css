@@ -151,6 +151,11 @@ section{
 .lane-title{
   margin: 0 0 1rem 0;
 }
+.lane-summary{
+  margin: 0 0 1rem 0;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
 .lane-list{
   margin: 0 0 1.5rem 1.1rem;
   color: var(--text-secondary);
