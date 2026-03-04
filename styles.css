@@ -210,7 +210,6 @@ section{
   background: var(--bg-elevated);
 }
 .about-card{
-  max-width: 70ch;
   line-height: 1.8;
   color: var(--text-secondary);
 }
