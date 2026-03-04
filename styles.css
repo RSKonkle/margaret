@@ -174,9 +174,21 @@ section{
 }
 .education-grid{
   display: grid;
-  grid-template-columns: 1fr 140px;
+  grid-template-columns: 1fr 1.6fr;
   gap: 2rem;
-  align-items: center;
+  margin-top: 1.25rem;
+}
+.edu-label{
+  margin: 0 0 0.75rem 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.education-col p{
+  margin: 0 0 1rem 0;
+  color: var(--text-secondary);
+  line-height: 1.6;
 }
 .education-logo img{
   width: 120px;
