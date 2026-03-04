@@ -137,6 +137,33 @@ section{
   color: var(--text-secondary);
   line-height: 1.6;
 }
+.lanes-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.lane-card{
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  padding: 2rem;
+}
+.lane-title{
+  margin: 0 0 1rem 0;
+}
+.lane-list{
+  margin: 0 0 1.5rem 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+.lane-link{
+  color: var(--accent);
+  text-decoration: none;
+}
+.lane-link:hover{
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
 
 /* MOBILE RESPONSIVENESS */
 
@@ -165,5 +192,8 @@ section{
   }
   .stat{
     text-align: left;
+  }
+  .lanes-grid{
+    grid-template-columns: 1fr;
   }
 }
