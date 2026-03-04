@@ -74,7 +74,6 @@ section{
 }
 .credentials {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 0.95rem;
   color: var(--text-muted);
   letter-spacing: 0.04em;
@@ -187,18 +186,6 @@ section{
   color: var(--text-primary);
 }
 .focus{
-  color: var(--text-secondary);
-  line-height: 1.6;
-}
-.edu-label{
-  margin: 0 0 0.75rem 0;
-  font-size: 0.9rem;
-  color: var(--text-muted);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-.education-col p{
-  margin: 0 0 1rem 0;
   color: var(--text-secondary);
   line-height: 1.6;
 }
