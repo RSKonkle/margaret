@@ -172,6 +172,16 @@ section{
 .education{
   margin-top: 3rem;
 }
+.education-grid{
+  display: grid;
+  grid-template-columns: 1fr 140px;
+  gap: 2rem;
+  align-items: center;
+}
+.education-logo img{
+  width: 120px;
+  opacity: 0.8;
+}
 .school-name{
   margin: 0 0 1.5rem 0;
   color: var(--text-secondary);
