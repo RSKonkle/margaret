@@ -213,10 +213,6 @@ section{
   .education-grid{
     grid-template-columns: 1fr;
   }
-
-  .education-logo{
-    margin-top: 1rem;
-  }
 }
 @media (max-width: 900px){
   .hero-grid{
