@@ -173,13 +173,13 @@ section{
 }
 .education-grid{
   display: grid;
-  gap: rem;
+  gap: 1rem;
   margin-top: 1.25rem;
 }
 .education-row{
   display: grid;
   grid-template-columns: max-content 1fr;
-  gap: .5rem;
+  gap: 1.25rem;
   align-items: start;
 }
 .degree{
