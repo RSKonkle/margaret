@@ -174,9 +174,21 @@ section{
 }
 .education-grid{
   display: grid;
-  grid-template-columns: 1fr 1.6fr;
-  gap: 2rem;
+  gap: 1rem;
   margin-top: 1.25rem;
+}
+.education-row{
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+.degree{
+  color: var(--text-primary);
+}
+.focus{
+  color: var(--text-secondary);
+  line-height: 1.6;
 }
 .edu-label{
   margin: 0 0 0.75rem 0;
@@ -197,9 +209,6 @@ section{
 .school-name{
   margin: 0 0 1.5rem 0;
   color: var(--text-secondary);
-}
-.degree{
-  margin-bottom: 1.25rem;
 }
 .degree p{
   margin: 0.25rem 0 0 0;
