@@ -10,6 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
     <title>Margaret Avery</title>
 </head>
+<script>
+const track = document.querySelector(".stats-track");
+const next = document.querySelector(".stats-arrow.right");
+const prev = document.querySelector(".stats-arrow.left");
+
+let index = 0;
+const visible = 3;
+
+next.onclick = () => {
+  const total = track.children.length;
+  if(index < total - visible){
+    index++;
+    track.style.transform = `translateX(-${index * (100/visible)}%)`;
+  }
+};
+
+prev.onclick = () => {
+  if(index > 0){
+    index--;
+    track.style.transform = `translateX(-${index * (100/visible)}%)`;
+  }
+};
+</script>
 <body>
     <header>
         <div class="container">
@@ -59,7 +82,11 @@
         </div>
     </section>
     <section class="stats-bar">
-        <div class="container stats-grid">
+    <div class="container stats-carousel">
+        <button class="stats-arrow left">&#10094;</button>
+        <div class="stats-viewport">
+        <div class="stats-track">
+            <!-- EXISTING STATS -->
             <div class="stat">
             <img class="stat-icon" src="images/icons8-dollar-50.png" alt="" aria-hidden="true"/>
             <div class="stat-number">$7.5M+</div>
@@ -75,7 +102,21 @@
             <div class="stat-number">65%</div>
             <p class="stat-text">Success rate (about 6.5x national average)</p>
             </div>
+            <!-- ADDITIONAL STATS -->
+            <div class="stat">
+            <img class="stat-icon" src="images/icons8-handshake-50.png" alt="" aria-hidden="true"/>
+            <div class="stat-number">$20M+</div>
+            <p class="stat-text">Public and private investment administered</p>
+            </div>
+            <div class="stat">
+            <img class="stat-icon" src="images/icons8-organization-50.png" alt="" aria-hidden="true"/>
+            <div class="stat-number">10+</div>
+            <p class="stat-text">Programs and initiatives launched</p>
+            </div>
         </div>
+        </div>
+        <button class="stats-arrow right">&#10095;</button>
+    </div>
     </section>
     <section id="experience" class="lanes">
         <div class="container">

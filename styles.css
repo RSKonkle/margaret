@@ -143,6 +143,30 @@ section{
   color: var(--text-secondary);
   line-height: 1.6;
 }
+.stats-carousel{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.stats-viewport{
+  overflow: hidden;
+  width: 100%;
+}
+.stats-track{
+  display: flex;
+  transition: transform 0.4s ease;
+}
+.stat{
+  min-width: calc(100% / 3);
+  text-align: center;
+}
+.stats-arrow{
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  font-size: 1.75rem;
+  cursor: pointer;
+}
 .lanes-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
