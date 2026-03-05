@@ -35,6 +35,10 @@ header .container {
     align-items: center;
     padding: 1.75rem 0;
 }
+.link-no-decor {
+  text-decoration: none;
+  color: inherit;
+}
 nav {
     display: flex;
     gap: 1.5rem;
