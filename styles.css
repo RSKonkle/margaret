@@ -224,6 +224,32 @@ section{
   line-height: 1.8;
   color: var(--text-secondary);
 }
+.contact{
+  background: var(--bg-elevated);
+}
+
+.contact-card{
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  padding: 2rem;
+}
+.contact-text{
+  margin: 0 0 1rem 0;
+  color: var(--text-secondary);
+}
+.contact-actions{
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+.contact-link{
+  color: var(--accent);
+  text-decoration: none;
+}
+.contact-link:hover{
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
 
 /* MOBILE RESPONSIVENESS */
 
