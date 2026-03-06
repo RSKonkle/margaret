@@ -248,7 +248,7 @@ section{
   border: 1px solid var(--border-subtle);
   border-radius: 16px;
   padding: 2rem;
-  max-width: 70ch;
+  max-width: var(--max);
   line-height: 1.8;
   color: var(--text-secondary);
 }
