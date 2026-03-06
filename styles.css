@@ -151,7 +151,7 @@ section{
   box-sizing: border-box;
 }
 .stat-icon{
-  width: 32px;
+  width: 50px;
   height: auto;
   display: block;
   margin: 0 auto 0.75rem auto;
