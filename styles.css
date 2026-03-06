@@ -166,6 +166,9 @@ section{
   color: var(--text-secondary);
   line-height: 1.6;
 }
+.lanes{
+  padding: 2rem;
+}
 .lanes-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
