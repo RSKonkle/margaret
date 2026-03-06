@@ -240,10 +240,15 @@ section{
   color: var(--text-secondary);
 }
 .about{
-  background: var(--bg-elevated);
+  background: var(--bg-primary);
   padding: 2rem;
 }
 .about-card{
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 70ch;
   line-height: 1.8;
   color: var(--text-secondary);
 }
