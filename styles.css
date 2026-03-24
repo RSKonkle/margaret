@@ -251,7 +251,33 @@ section{
   line-height: 1.8;
   color: var(--text-secondary);
 }
-
+.about{
+  background: var(--bg-elevated);
+}
+.about-layout{
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+.about-text{
+  color: var(--text-secondary);
+  line-height: 1.8;
+  max-width: 70ch;
+}
+.about-text p{
+  margin: 0 0 1.25rem 0;
+}
+.about-image{
+  display: flex;
+  justify-content: flex-end;
+}
+.about-image img{
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  display: block;
+}
 .contact-bar{
   border-top: 1px solid var(--border-subtle);
   padding: 2rem 0;
@@ -317,5 +343,14 @@ section{
   .contact-grid{
   grid-template-columns: 1fr;
   gap: 1rem;
+  }
+  .about-layout{
+  grid-template-columns: 1fr;
+  }
+  .about-image{
+    justify-content: flex-start;
+  }
+  .about-image img{
+    max-width: 180px;
   }
 }
