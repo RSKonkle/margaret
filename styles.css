@@ -277,6 +277,8 @@ section{
   max-width: 260px;
   height: auto;
   display: block;
+  border: 2px solid var(--text-muted);
+  border-radius: 8px;
 }
 .contact-bar{
   border-top: 1px solid var(--border-subtle);
